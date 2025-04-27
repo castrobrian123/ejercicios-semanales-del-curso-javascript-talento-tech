@@ -1,0 +1,19 @@
+/* Quitar viñetas de la lista */
+.nav-list {
+    list-style: none;
+    background-color: #333; /* Color de fondo del menú */
+    padding: 10px;
+}
+
+/* Estilizar los enlaces */
+.nav-list li a {
+    text-decoration: none;
+    color: white; /* Cambiar el color del texto */
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Opcional: Cambiar color al pasar el cursor */
+.nav-list li a:hover {
+    color: #ff9900; /* Color al pasar el mouse */
+}
