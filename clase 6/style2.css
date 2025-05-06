@@ -1,0 +1,19 @@
+/* Sección de productos */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Estilo de cada producto */
+.producto {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    flex: 1 1 200px;
+    text-align: center;
+    border: 2px solid #2980b9;
+}
